@@ -2306,7 +2306,7 @@ var Icon$h = function (props) {
 var rotate = styled.keyframes(templateObject_1$q || (templateObject_1$q = __makeTemplateObject(["\n  from {\n    transform: rotate(0deg);\n  }\n  to {\n    transform: rotate(360deg);\n  }\n"], ["\n  from {\n    transform: rotate(0deg);\n  }\n  to {\n    transform: rotate(360deg);\n  }\n"])));
 var float = styled.keyframes(templateObject_2$f || (templateObject_2$f = __makeTemplateObject(["\n\t0% {\n\t\ttransform: translatey(0px);\n\t}\n\t50% {\n\t\ttransform: translatey(10px);\n\t}\n\t100% {\n\t\ttransform: translatey(0px);\n\t}\n"], ["\n\t0% {\n\t\ttransform: translatey(0px);\n\t}\n\t50% {\n\t\ttransform: translatey(10px);\n\t}\n\t100% {\n\t\ttransform: translatey(0px);\n\t}\n"])));
 var SpinnerIcon = function (props) {
-    return (jsxRuntime.jsx(Svg, __assign({ viewBox: "0 0 96 96" }, props, { children: jsxRuntime.jsx("image", { width: "96", height: "96", href: "/images/logo.svg" }, void 0) }), void 0));
+    return (jsxRuntime.jsx(Svg, __assign({ viewBox: "0 0 96 96" }, props, { children: jsxRuntime.jsx("image", { width: "96", height: "96", href: "/images/logo.png" }, void 0) }), void 0));
 };
 var Container$2 = styled__default['default'].div(templateObject_3$9 || (templateObject_3$9 = __makeTemplateObject(["\n  position: relative;\n"], ["\n  position: relative;\n"])));
 var RotatingPancakeIcon = styled__default['default'](SpinnerIcon)(templateObject_4$5 || (templateObject_4$5 = __makeTemplateObject(["\n  position: absolute;\n  top: 0;\n  left: 0;\n  animation: ", " 2s linear infinite;\n  transform: translate3d(0, 0, 0);\n"], ["\n  position: absolute;\n  top: 0;\n  left: 0;\n  animation: ", " 2s linear infinite;\n  transform: translate3d(0, 0, 0);\n"])), rotate);
