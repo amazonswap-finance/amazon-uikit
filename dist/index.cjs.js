@@ -3817,7 +3817,7 @@ var Logo = function (_a) {
     var isAbsoluteUrl = href.startsWith("http");
     var innerLogo = (jsxRuntime.jsxs(jsxRuntime.Fragment, { children: [jsxRuntime.jsx(StyledLogo, { className: "mobile-icon", src: primaryMenu ? "/images/logo.png" : "/images/logo.png" }, void 0),
             jsxRuntime.jsx(StyledLogoWithTextIcon, { className: "desktop-icon", src: primaryMenu ? "/images/logoWithText-Primary.png" : "/images/logoWithText.png" }, void 0)] }, void 0));
-    return (jsxRuntime.jsxs(Flex, { children: [jsxRuntime.jsx(MenuButton, __assign({ "aria-label": "Toggle menu", onClick: togglePush }, { children: isPushed ? (jsxRuntime.jsx(Icon$d, { width: "24px", color: "hamburger" }, void 0)) : (jsxRuntime.jsx(Icon$e, { width: "24px", color: "hamburger" }, void 0)) }), void 0),
+    return (jsxRuntime.jsxs(Flex, { children: [jsxRuntime.jsx(MenuButton, __assign({ "aria-label": "Toggle menu", onClick: togglePush }, { children: isPushed ? (jsxRuntime.jsx(Icon$d, { width: "24px", color: "#50b145" }, void 0)) : (jsxRuntime.jsx(Icon$e, { width: "24px", color: primaryMenu ? "hamburger" : "#50b145" }, void 0)) }), void 0),
             isAbsoluteUrl ? (jsxRuntime.jsx(StyledLink, __assign({ as: "a", href: href, "aria-label": "Pancake home page" }, { children: innerLogo }), void 0)) : (jsxRuntime.jsx(StyledLink, __assign({ to: href, "aria-label": "Pancake home page" }, { children: innerLogo }), void 0))] }, void 0));
 };
 var Logo$1 = React__default['default'].memo(Logo, function (prev, next) { return prev.isPushed === next.isPushed && prev.isDark === next.isDark && prev.primaryMenu === next.primaryMenu; });
